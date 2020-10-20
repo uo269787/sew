@@ -117,3 +117,7 @@ nav a:hover {
 	color: var(--nord0);
 	transition-duration: 0.3s;
 }
+/* 003 */
+section > h3 > p {
+	text-align: center;
+}

@@ -1,0 +1,119 @@
+/* Variables */
+/* Hacer captura de caniuse y añadirlo a documentacion*/
+:root{
+	--nord0: #2e3440;
+	--nord1: #3b4252;
+	--nord2: #434c5e;
+	--nord3: #4c566a;
+	--nord4: #d8dee9;
+	--nord5: #e5e9f0;
+	--nord6: #eceff4;
+	--nord7: #8fbcbb;
+	--nord8: #88c0d0;
+	--nord9: #81a1c1;
+	--nord10: #5e81ac;
+	--nord11: #bf616a;
+	--nord12: #d08770;
+	--nord13: #ebcb8b;
+	--nord14: #a3be8c;
+	--nord15: #b48ead;
+}
+/* 001 */
+body {
+	font-family: Helvetica, Verdana, sans-serif;
+	background-color: var(--nord6);
+	color: var(--nord0);
+	margin: auto;
+	text-align: center;
+}
+/* 001 */
+main{
+	margin-left: 15%;
+	margin-right: 15%;
+
+	/* 
+	Allows content to grow to fill the min-height requirement
+	that the footer always sits on the bottom
+	*/
+	flex: 1;
+
+}
+/* 001 */
+header{
+	padding: 1em;
+	background-color: var(--nord0);
+	color: var(--nord6);
+}
+
+/* 001 */
+section {
+	margin: auto;
+	padding: 1em;
+}
+
+/* 002 */
+section > h2 {
+	padding: 0.7em;
+	border-radius: 0.5em;
+	background-color: var(--nord0);
+	color: var(--nord6);
+}
+/* 001 */
+h3 {
+	color: var(--nord0);
+	background-color: var(--nord6);
+}
+
+/* 002 */
+section > p {
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: justify;
+}
+
+/* 002 */
+section > ul {
+	display: inline-block;
+	text-align: left;
+}
+/* 001 */
+li {
+	padding: 0.5em;
+}
+
+/* 001 */
+table {
+	padding: 2em;
+	width: 100%;
+	height: 100%;
+}
+/* 001 */
+th, td {
+	padding: 0.2em;
+	border-bottom: 0.1rem solid var(--nord3);
+}
+
+/* 001 */
+footer {
+	padding: 2em;
+	color: var(--nord6);
+	background-color: var(--nord0);
+}
+
+/* 002 */
+nav a {
+	text-decoration: none;
+	padding: 0.6em;
+	margin: 0.2em;
+	border-radius: 0.5em;
+	border: 0.2rem solid var(--nord6);
+	background-color: var(--nord0);
+	color: var(--nord6);
+}
+
+/* 012 */
+nav a:hover {
+	background-color: var(--nord6);
+	color: var(--nord0);
+	transition-duration: 0.3s;
+}

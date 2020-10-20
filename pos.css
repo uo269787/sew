@@ -1,0 +1,46 @@
+/* 001 */
+body {
+	/*Sets the page to be a column*/
+	display: flex;
+	flex-direction: column;
+	/*Elements must occupy the whole view*/
+	min-height: 100vh;
+}
+
+/* 001 */
+main{
+	/* 
+	Allows content to grow to fill the min-height requirement
+	that the footer always sits on the bottom
+	*/
+	flex: 1;
+}
+/* 001 */
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+/* 001 */
+video {
+	max-width: 95%;
+	max-height: 100%;
+	height: auto;
+}
+/* 001 */
+img {
+	width: 80%;
+	height: auto;
+}
+
+@media only screen and (max-width: 850px) {
+	/* 001 */
+	nav {
+		flex-direction: column;
+	}
+	/* 001 */
+	main {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+}
